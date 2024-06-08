@@ -1,19 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(169, 169, 253);
 }
 
 .navbar {
     background-color: #333;
     overflow: hidden;
+    margin-left: 700px;
 }
 
+
 .navbar a {
-    float: left;
+    float: right;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
 }
 
 .navbar a:hover {
@@ -21,8 +26,6 @@ body {
     color: black;
 }
 
-.imagen {
-    width: 200px;
-    height: auto;
-    border-radius: 300px;
+.i{
+    color: rgb(144, 30, 250);
 }
