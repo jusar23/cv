@@ -1,23 +1,24 @@
 body {
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(255, 217, 147);
+    background-color: rgb(255, 222, 161);
 }
 
 .navbar {
     background-color: #333;
+    float: top;
     overflow: hidden;
-    margin-left: 700px;
+    margin: 5%;
+    text-align: center;
 }
 
 
 .navbar a {
-    float: right;
-    display: block;
+    float: top;
     color: white;
     text-align: center;
-    padding: 14px 20px;
     text-decoration: none;
-    margin-right: 30px;
+    margin: 5%;
     font-size: 20px;
 }
 
@@ -27,35 +28,35 @@ body {
 }
 
 .h1 {
-    float: top;
-    margin-left: 150px;
+    text-align: center;
+    float: center; 
     font-size: 50px;
-    margin-top: -50px;
+   
 }
 
 .lista1 {
     list-style-image: url(mortarboard-fill.svg);
-    margin-top: 50px;
+    float: left;
+ 
 }
 
 .lista2{
-    padding: 15px;
+    margin: 5%;
 }
 .contenido1{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .contenido2{
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .imagen {
     float: right;
-    width: 400px;
-    height: 400px;
-    margin-top: -380px;
-    margin-right: 100px;
+    width: 350px;
+    height: 350px;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    margin: 5%;
 }
 .i {
     color: orange;
